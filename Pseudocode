@@ -1,0 +1,10 @@
+Define Shaun's languages array
+Prompt the user to enter their name
+Ask the user to input the number of languages they know
+Create an empty vector for user's languages
+Read and store the user's languages in the vector
+Create an unordered set from Shaun's languages array
+Iterate through the user's languages vector
+    If the language is found in Shaun's languages set
+        Print the message: "Both Shaun and 'username' can communicate in 'language'"
+End the program
