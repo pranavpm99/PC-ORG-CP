@@ -1,1 +1,12 @@
+To solve the language compatibility problem we use the General Approach:
 
+We define the array of languages known by Shaun, which contains 6 languages.
+Then prompt the user to enter their name.
+Ask the user to input the number of languages they know.
+Create an empty vector to store the user's known languages.
+Use a loop to read the languages known by the user and add them to the vector.
+Create an unordered set from the Shaun's languages array for efficient lookup.
+Iterate through the user's languages vector and check if each language exists in the Shaun's languages set.
+If a language is found in both Shaun's and the user's languages, print the message: "Both Shaun and 'username' can communicate in 'language'".
+Repeat the above step for each language in the user's languages vector.
+End the program.
